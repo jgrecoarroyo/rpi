@@ -13,8 +13,11 @@ window.onload = function () {
   var ports_right = [12, 16, 22, 32, 34, 38, 40  ];  // the GPIO ports we will read
   var ports_left =  [1, 7, 11, 13, 15, 31, 33, 37];  // the GPIO ports we will read
 
-  for (i in ports) {
-    $('#input_' + ports[i]).html('loading port ' + ports[i] + ' value...');
+  for (i in ports_right) {
+    $('#input_' + ports_right[i]).html('loading port ' + ports_right[i] + ' value...');
+  }
+  for (i in ports_left) {
+    $('#input_' + ports_left[i]).html('loading port ' + ports_left[i] + ' value...');
   }
   //document.domain = 'localhost';
 
