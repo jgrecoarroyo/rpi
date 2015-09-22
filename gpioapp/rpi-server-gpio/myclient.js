@@ -50,8 +50,9 @@ window.onload = function () {
 
       $.getJSON(url, function (data) {
         console.log('API response received. port ' + data.pin + ' value = ' + data.value);
-        var svgDoc = a.contentDocument.getElementById("_"+ports_left[i]).childNodes;
-        svgDoc[ports_left[i]].textContent = data.value;
+        var index = ports_left[i];
+        var svgDoc = a.contentDocument.getElementById("_"+index).childNodes;  
+        svgDoc[index].textContent = data.value;
         $('#input_' + data.pin).html('PIN input port ' + data.pin + ' value is ' + data.value);
       });
     } // for
