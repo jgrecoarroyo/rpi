@@ -50,9 +50,8 @@ window.onload = function () {
 
       $.getJSON(url, function (data) {
         console.log('API response received. port ' + data.pin + ' value = ' + data.value);
-        var index = ports_left[i];
-        var svgDoc = a.contentDocument.getElementById("_"+index).childNodes;  
-        svgDoc[index].textContent = data.value;
+        var svgDoc = a.contentDocument.getElementById("_"+data.pin).childNodes;
+        svgDoc[1].textContent = data.value;
         $('#input_' + data.pin).html('PIN input port ' + data.pin + ' value is ' + data.value);
       });
     } // for
@@ -63,8 +62,8 @@ window.onload = function () {
 
       $.getJSON(url, function (data) {
         console.log('API response received. port ' + data.pin + ' value = ' + data.value);
-        //var svgDoc = a.contentDocument.getElementById("_"+i).childNodes;
-        //svgDoc[i].textContent = data.value;
+        var svgDoc = a.contentDocument.getElementById("_"+data.pin).childNodes;
+        svgDoc[1].textContent = data.value;
         $('#input_' + data.pin).html('PIN input port ' + data.pin + ' value is ' + data.value);
       });
     } // for

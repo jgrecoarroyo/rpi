@@ -1116,7 +1116,7 @@
                 <tspan x="420.78569" y="84.3684211" fill="#000000">PIN</tspan>
             </text>
             <g id="Group" sketch:type="MSLayerGroup" transform="translate(415.000000, 91.000000)" font-weight="normal" font-family="Helvetica" fill="#FFFFFF" sketch:alignment="right">
-                <text id="01" opacity="0.500116604" sketch:type="MSTextLayer" font-size="13.3877895">
+                <text id="01" opacity="0.500116604" opacity="0.500116604" sketch:type="MSTextLayer" font-size="13.3877895">
                     <tspan x="9.23026827" y="13.1591707" fill="#000000">01</tspan>
                 </text>
                 <text id="03" opacity="0.500116604" sketch:type="MSTextLayer" font-size="13.388">
@@ -1126,19 +1126,19 @@
                     <tspan x="9.23003411" y="63.2720893" fill="#000000">05</tspan>
                 </text>
                 <text id="07" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="9.23003411" y="87.2324497" fill="#000000">07</tspan>
+                    <tspan x="9.23003411" y="87.2324497" fill="#ffffff">07</tspan>
                 </text>
                 <text id="09" opacity="0.500116604" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="9.23003411" y="111.19281" fill="#000000">09</tspan>
+                    <tspan x="9.23003411" y="111.19281" fill="#ffffff">09</tspan>
                 </text>
                 <text id="11" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="10.2171376" y="136.19281" fill="#000000">11</tspan>
+                    <tspan x="10.2171376" y="136.19281" fill="#ffffff">11</tspan>
                 </text>
                 <text id="13" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="9.23003411" y="161.19281" fill="#000000">13</tspan>
+                    <tspan x="9.23003411" y="161.19281" fill="#ffffff">13</tspan>
                 </text>
                 <text id="15" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="9.23003411" y="185.19281" fill="#000000">15</tspan>
+                    <tspan x="9.23003411" y="185.19281" fill="#ffffff">15</tspan>
                 </text>
                 <text id="17" opacity="0.500116604" sketch:type="MSTextLayer" font-size="13.388">
                     <tspan x="9.23003411" y="206.894737" fill="#000000">17</tspan>
@@ -1159,19 +1159,19 @@
                     <tspan x="9.23003411" y="327.803789" fill="#000000">27</tspan>
                 </text>
                 <text id="29" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="9.23003411" y="352.803789" fill="#000000">29</tspan>
+                    <tspan x="9.23003411" y="352.803789" fill="#ffffff">29</tspan>
                 </text>
                 <text id="31" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="9.23003411" y="376.803789" fill="#000000">31</tspan>
+                    <tspan x="9.23003411" y="376.803789" fill="#ffffff">31</tspan>
                 </text>
                 <text id="33" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="9.23003411" y="401.052632" fill="#000000">33</tspan>
+                    <tspan x="9.23003411" y="401.052632" fill="#ffffff">33</tspan>
                 </text>
                 <text id="35" opacity="0.500116604" sketch:type="MSTextLayer" font-size="13.388">
                     <tspan x="9.23003411" y="426.052632" fill="#000000">35</tspan>
                 </text>
                 <text id="37" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="9.23003411" y="451.052632" fill="#000000">37</tspan>
+                    <tspan x="9.23003411" y="451.052632" fill="#ffffff">37</tspan>
                 </text>
                 <text id="39" opacity="0.500116604" sketch:type="MSTextLayer" font-size="13.388">
                     <tspan x="9.23003411" y="475.052632" fill="#000000">39</tspan>
@@ -1179,31 +1179,31 @@
             </g>
             <g id="Group-Copy-2" sketch:type="MSLayerGroup" transform="translate(393.000000, 91.000000)" font-weight="normal" font-family="Helvetica" fill="#FFFFFF" sketch:alignment="middle">
                 <text id="_1" sketch:type="MSTextLayer" font-size="13.3877895">
-                    <tspan x="10.1029763" y="13.1591707" fill="#000000">-</tspan>
+                    <tspan x="10.1029763" y="13.1591707" fill="#ffffff">-</tspan>
                 </text>
                 <text id="_7" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="10.1029413" y="87.2324497" fill="#000000">-</tspan>
+                    <tspan x="10.1029413" y="87.2324497" fill="#ffffff">-</tspan>
                 </text>
                 <text id="_11" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="10.1029413" y="136.19281" fill="#000000">-</tspan>
+                    <tspan x="10.1029413" y="136.19281" fill="#ffffff">-</tspan>
                 </text>
                 <text id="_13" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="10.1029413" y="161.19281" fill="#000000">-</tspan>
+                    <tspan x="10.1029413" y="161.19281" fill="#ffffff">-</tspan>
                 </text>
                 <text id="_15" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="10.1029413" y="185.19281" fill="#000000">-</tspan>
+                    <tspan x="10.1029413" y="185.19281" fill="#ffffff">-</tspan>
                 </text>
                 <text id="_29" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="10.1029413" y="352.803789" fill="#000000">-</tspan>
+                    <tspan x="10.1029413" y="352.803789" fill="#ffffff">-</tspan>
                 </text>
                 <text id="_31" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="10.1029413" y="376.803789" fill="#000000">-</tspan>
+                    <tspan x="10.1029413" y="376.803789" fill="#ffffff">-</tspan>
                 </text>
                 <text id="_33" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="10.1029413" y="401.052632" fill="#000000">-</tspan>
+                    <tspan x="10.1029413" y="401.052632" fill="#ffffff">-</tspan>
                 </text>
                 <text id="_37" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="10.1029413" y="451.052632" fill="#000000">-</tspan>
+                    <tspan x="10.1029413" y="451.052632" fill="#ffffff">-</tspan>
                 </text>
             </g>
             <g id="Group" sketch:type="MSLayerGroup" transform="translate(503.000000, 91.000000)" font-weight="normal" font-family="Helvetica" fill="#FFFFFF">
@@ -1223,13 +1223,13 @@
                     <tspan x="0.697288676" y="111.19281" fill="#000000">10</tspan>
                 </text>
                 <text id="12" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="0.697288676" y="136.19281" fill="#000000">12</tspan>
+                    <tspan x="0.697288676" y="136.19281" fill="#ffffff">12</tspan>
                 </text>
                 <text id="14" opacity="0.500116604" sketch:type="MSTextLayer" font-size="13.388">
                     <tspan x="0.697288676" y="161.19281" fill="#000000">14</tspan>
                 </text>
                 <text id="16" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="0.697288676" y="185.19281" fill="#000000">16</tspan>
+                    <tspan x="0.697288676" y="185.19281" fill="#ffffff">16</tspan>
                 </text>
                 <text id="18" opacity="0.496152052" sketch:type="MSTextLayer" font-size="13.388">
                     <tspan x="0.697288676" y="206.894737" fill="#000000">18</tspan>
@@ -1238,7 +1238,7 @@
                     <tspan x="0.697288676" y="231.894737" fill="#000000">20</tspan>
                 </text>
                 <text id="22" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="0.697288676" y="256.894737" fill="#000000">22</tspan>
+                    <tspan x="0.697288676" y="256.894737" fill="#ffffff">22</tspan>
                 </text>
                 <text id="24" opacity="0.496152052" sketch:type="MSTextLayer" font-size="13.388">
                     <tspan x="0.697288676" y="280.894737" fill="#000000">24</tspan>
@@ -1253,7 +1253,7 @@
                     <tspan x="0.697288676" y="352.803789" fill="#000000">30</tspan>
                 </text>
                 <text id="32" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="0.697288676" y="376.803789" fill="#000000">32</tspan>
+                    <tspan x="0.697288676" y="376.803789" fill="#ffffff">32</tspan>
                 </text>
                 <text id="34" opacity="0.500116604" sketch:type="MSTextLayer" font-size="13.388">
                     <tspan x="0.697288676" y="401.052632" fill="#000000">34</tspan>
@@ -1262,31 +1262,31 @@
                     <tspan x="0.697288676" y="426.052632" fill="#000000">36</tspan>
                 </text>
                 <text id="38" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="0.697288676" y="451.052632" fill="#000000">38</tspan>
+                    <tspan x="0.697288676" y="451.052632" fill="#ffffff">38</tspan>
                 </text>
                 <text id="40" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="0.697288676" y="475.052632" fill="#000000">40</tspan>
+                    <tspan x="0.697288676" y="475.052632" fill="#ffffff">40</tspan>
                 </text>
             </g>
             <g id="Group-Copy" sketch:type="MSLayerGroup" transform="translate(523.000000, 91.000000)" font-weight="normal" font-family="Helvetica" fill="#FFFFFF" sketch:alignment="middle">
 
                 <text id="_12" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="10.2576081" y="136.19281" fill="#000000">-</tspan>
+                    <tspan x="10.2576081" y="136.19281" fill="#ffffff">-</tspan>
                 </text>
                 <text id="_16" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="10.2576081" y="185.19281" fill="#000000">-</tspan>
+                    <tspan x="10.2576081" y="185.19281" fill="#ffffff">-</tspan>
                 </text>
                 <text id="_22" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="10.2576081" y="256.894737" fill="#000000">-</tspan>
+                    <tspan x="10.2576081" y="256.894737" fill="#ffffff">-</tspan>
                 </text>
                 <text id="_32" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="10.2576081" y="376.803789" fill="#000000">-</tspan>
+                    <tspan x="10.2576081" y="376.803789" fill="#ffffff">-</tspan>
                 </text>
                 <text id="_38" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="10.2576081" y="451.052632" fill="#000000">-</tspan>
+                    <tspan x="10.2576081" y="451.052632" fill="#ffffff">-</tspan>
                 </text>
                 <text id="_40" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="10.2576081" y="475.052632" fill="#000000">-</tspan>
+                    <tspan x="10.2576081" y="475.052632" fill="#ffffff">-</tspan>
                 </text>
             </g>
             <g id="Group" sketch:type="MSLayerGroup" transform="translate(471.357576, 331.578947) rotate(-270.000000) translate(-471.357576, -331.578947) translate(227.147049, 306.306220)">
