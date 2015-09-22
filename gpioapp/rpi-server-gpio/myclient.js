@@ -23,6 +23,7 @@ window.onload = function () {
 
   var a = document.getElementById("svg_object");
   //it's important to add an load event listener to the object, as it will load the svg doc asynchronously
+  /*
   a.addEventListener("load",function(){
      var svgDoc = a.contentDocument; //get the inner DOM of alpha.svg
      console.log("-----");
@@ -31,8 +32,10 @@ window.onload = function () {
      var delta = svgDoc.getElementById("PIN"); //get the inner element by id
      delta.addEventListener("mousedown",function(){alert('hello world!')},false);    //add behaviour
   },false);
+  */
   console.log("-----");
-  console.log(a.contentDocument);
+  var svgDoc = a.contentDocument; //get the inner DOM of alpha.svg
+  console.log(svgDoc.getElementById("PIN"));
   console.log("-----");
 
 /*
