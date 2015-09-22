@@ -35,7 +35,9 @@ window.onload = function () {
   */
   console.log("-----");
   var svgDoc = a.contentDocument; //get the inner DOM of alpha.svg
-  console.log(svgDoc.getElementById("PIN"));
+  console.log(svgDoc.getElementById("_1"));
+  var select = document.querySelector("#\2d > tspan");
+  console.log(select);
   console.log("-----");
 
 /*
