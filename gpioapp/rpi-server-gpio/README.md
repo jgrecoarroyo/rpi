@@ -24,4 +24,3 @@ this starts the http server on localthost using port 3000
 If you now open a browser on your PC or Mac and browse to http://[your RPi's IP Address]:3000, the index.html file will be loaded from the RPi and displayed (served by myapi.js acting as a webserver). 
 index.html immediately loads the myclient.js file from the RPi, which contains the client-side logic, next sending an API query to our server-side API running on the RPi. The server api reaponds with the current value of the required input pin.
 
-####anything
