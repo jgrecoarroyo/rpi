@@ -64,7 +64,7 @@ setInterval( function () {
     if (err) {
       throw err;
     }
-    //console.log('read pin ' + inputs[0].pin + ' value = ' + value);
+    console.log('read pin ' + inputs[0].pin + ' value = ' + value);
     // update the inputs object
     inputs[0].value = value.toString(); // store value as a string
   });
@@ -72,96 +72,112 @@ setInterval( function () {
     if (err) {
       throw err;
     }
+    console.log('read pin ' + inputs[1].pin + ' value = ' + value);
     inputs[1].value = value.toString();
   });
   gpio.read(inputs[2].pin, function (err, value) {
     if (err) {
       throw err;
     }
+    console.log('read pin ' + inputs[2].pin + ' value = ' + value);
     inputs[2].value = value.toString();
   });
   gpio.read(inputs[3].pin, function (err, value) {
     if (err) {
       throw err;
     }
+    console.log('read pin ' + inputs[3].pin + ' value = ' + value);
     inputs[3].value = value.toString();
   });
   gpio.read(inputs[4].pin, function (err, value) {
     if (err) {
       throw err;
     }
+    console.log('read pin ' + inputs[4].pin + ' value = ' + value);
     inputs[4].value = value.toString();
   });
   gpio.read(inputs[5].pin, function (err, value) {
     if (err) {
       throw err;
     }
+    console.log('read pin ' + inputs[5].pin + ' value = ' + value);
     inputs[5].value = value.toString();
   });
   gpio.read(inputs[6].pin, function (err, value) {
     if (err) {
       throw err;
     }
+    console.log('read pin ' + inputs[6].pin + ' value = ' + value);
     inputs[6].value = value.toString();
   });
   gpio.read(inputs[7].pin, function (err, value) {
     if (err) {
       throw err;
     }
+    console.log('read pin ' + inputs[7].pin + ' value = ' + value);
     inputs[7].value = value.toString();
   });
   gpio.read(inputs[8].pin, function (err, value) {
     if (err) {
       throw err;
     }
+    console.log('read pin ' + inputs[8].pin + ' value = ' + value);
     inputs[8].value = value.toString();
   });
   gpio.read(inputs[9].pin, function (err, value) {
     if (err) {
       throw err;
     }
+    console.log('read pin ' + inputs[9].pin + ' value = ' + value);
     inputs[9].value = value.toString();
   });
   gpio.read(inputs[10].pin, function (err, value) {
     if (err) {
       throw err;
     }
+    console.log('read pin ' + inputs[10].pin + ' value = ' + value);
     inputs[10].value = value.toString();
   });
   gpio.read(inputs[11].pin, function (err, value) {
     if (err) {
       throw err;
     }
+    console.log('read pin ' + inputs[11].pin + ' value = ' + value);
     inputs[11].value = value.toString();
   });
   gpio.read(inputs[12].pin, function (err, value) {
     if (err) {
       throw err;
     }
+    console.log('read pin ' + inputs[12].pin + ' value = ' + value);
     inputs[12].value = value.toString();
   });
   gpio.read(inputs[13].pin, function (err, value) {
     if (err) {
       throw err;
     }
+    console.log('read pin ' + inputs[13].pin + ' value = ' + value);
     inputs[13].value = value.toString();
   });
   gpio.read(inputs[14].pin, function (err, value) {
     if (err) {
       throw err;
     }
+    console.log('read pin ' + inputs[14].pin + ' value = ' + value);
     inputs[14].value = value.toString();
   });
   gpio.read(inputs[15].pin, function (err, value) {
     if (err) {
       throw err;
     }
+    console.log('read pin ' + inputs[15].pin + ' value = ' + value);
     inputs[15].value = value.toString();
   });
   gpio.read(inputs[16].pin, function (err, value) {
     if (err) {
       throw err;
     }
+    console.log('read pin ' + inputs[16].pin + ' value = ' + value);
     inputs[16].value = value.toString();
   });
 
