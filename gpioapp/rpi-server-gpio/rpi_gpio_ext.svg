@@ -1614,10 +1614,10 @@
                 <g id="_x30_.1.0.0.0.20.0" transform="translate(3.164968, 1.449644)" sketch:type="MSTextLayer">
                     <g id="_x30_.1.0.0.20.0">
                         <text id="Raspberry-Pi-Model-2-v1.1">
-                            <tspan x="3.01271579" y="22.0420364" fill="#000000">Raspberry Pi Model 2 v1.1</tspan>
+                            <tspan x="3.01271579" y="22.0420364" fill="#ffffff">Raspberry Pi Model 2 v1.1</tspan>
                         </text>
                         <text id="©-Raspberry-Pi-2014">
-                            <tspan x="3.01271579" y="46.6698036" fill="#000000">© Raspberry Pi 2014</tspan>
+                            <tspan x="3.01271579" y="46.6698036" fill="#ffffff">© Raspberry Pi 2014</tspan>
                         </text>
                     </g>
                 </g>
