@@ -1116,7 +1116,7 @@
                 <tspan x="420.78569" y="84.3684211" fill="#000000">PIN</tspan>
             </text>
             <g id="Group" sketch:type="MSLayerGroup" transform="translate(415.000000, 91.000000)" font-weight="normal" font-family="Helvetica" fill="#FFFFFF" sketch:alignment="right">
-                <text id="01" opacity="0.500116604" opacity="0.500116604" sketch:type="MSTextLayer" font-size="13.3877895">
+                <text id="01" opacity="0.500116604" sketch:type="MSTextLayer" font-size="13.3877895">
                     <tspan x="9.23026827" y="13.1591707" fill="#000000">01</tspan>
                 </text>
                 <text id="03" opacity="0.500116604" sketch:type="MSTextLayer" font-size="13.388">
