@@ -1,19 +1,19 @@
 /**
  * myapi.js
- * 
+ *
  * @version 1.1 - April 2015
  *
- * 
+ *
  * DESCRIPTION:
- * an application to demonstrate running a node 
+ * an application to demonstrate running a node
  * API Appserver on a Raspberry Pi to access GPIO I/O
- * Uses the Express and wiringPi node packages. 
- * 
- * 
+ * Uses the Express and wiringPi node packages.
+ *
+ *
  * @throws none
  * @see nodejs.org
  * @see express.org
- * 
+ *
  * @author Ceeb
  * (C) 2015 PINK PELICAN NZ LTD
  */
@@ -58,6 +58,7 @@ for (i in inputs) {
 
 // ------------------------------------------------------------------------
 // read and store the GPIO inputs twice a second
+// (note: the gpio.read cannot be for-looped)
 setInterval( function () {
   gpio.read(inputs[0].pin, function (err, value) {
     if (err) {
@@ -67,28 +68,24 @@ setInterval( function () {
     // update the inputs object
     inputs[0].value = value.toString(); // store value as a string
   });
-
   gpio.read(inputs[1].pin, function (err, value) {
     if (err) {
       throw err;
     }
     inputs[1].value = value.toString();
   });
-
   gpio.read(inputs[2].pin, function (err, value) {
     if (err) {
       throw err;
     }
     inputs[2].value = value.toString();
   });
-
   gpio.read(inputs[3].pin, function (err, value) {
     if (err) {
       throw err;
     }
     inputs[3].value = value.toString();
   });
- 
   gpio.read(inputs[4].pin, function (err, value) {
     if (err) {
       throw err;
@@ -171,16 +168,16 @@ setInterval( function () {
 }, 500); // setInterval
 
 // ------------------------------------------------------------------------
-// configure Express to serve index.html and any other static pages stored 
+// configure Express to serve index.html and any other static pages stored
 // in the home directory
 app.use(express.static(__dirname));
 
 // Express route for incoming requests for a single input
-app.get('/inputs/:id', function (req, res) {
+app.get('/gpios/:id', function (req, res) {
   var i;
 
  // console.log('received API request for port number ' + req.params.id);
-  
+
   for (i in inputs){
     if ((req.params.id === inputs[i].gpio)) {
       // send to client an inputs object as a JSON string
@@ -190,11 +187,36 @@ app.get('/inputs/:id', function (req, res) {
   } // for
 
   console.log('invalid input port');
-  res.status(403).send('dont recognise that input port number ' + req.params.id);
+  res.status(403).send('dont recognise that input port number ' + req.params.id + ' gpios numbers ports used!');
 }); // apt.get()
 
 // Express route for incoming requests for a list of all inputs
-app.get('/inputs', function (req, res) {
+app.get('/gpios', function (req, res) {
+  // send array of inputs objects as a JSON string
+  console.log('all inputs');
+  res.status(200).send(inputs);
+}); // apt.get()
+
+// Express route for incoming requests for a single input
+app.get('/pins/:id', function (req, res) {
+  var i;
+
+ // console.log('received API request for port number ' + req.params.id);
+
+  for (i in inputs){
+    if ((req.params.id === inputs[i].pin)) {
+      // send to client an inputs object as a JSON string
+      res.send(inputs[i]);
+      return;
+    }
+  } // for
+
+  console.log('invalid input port');
+  res.status(403).send('dont recognise that input port number ' + req.params.id + ' gpios numbers ports used!');
+}); // apt.get()
+
+// Express route for incoming requests for a list of all inputs
+app.get('/pins', function (req, res) {
   // send array of inputs objects as a JSON string
   console.log('all inputs');
   res.status(200).send(inputs);
