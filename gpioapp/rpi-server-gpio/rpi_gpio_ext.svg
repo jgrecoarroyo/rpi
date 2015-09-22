@@ -21,7 +21,7 @@
                         <g id="_x30_.1.0.0.0.211.0.0.0" transform="translate(10.198905, 23.354696) scale(-1, -1) translate(-10.198905, -23.354696) translate(0.093642, 1.451665)">
                             <g id="_x30_.1.0.0.211.0.0">
                                 <text id="tspan8666_5_" transform="translate(10.098526, 21.870681) rotate(-90.000000) translate(-10.098526, -21.870681) ">
-                                    <tspan x="-10.112" y="27.4464388" fill="#000000">Power</tspan>
+                                    <tspan x="-10.112" y="27.4464388" fill="#ffffff">Power</tspan>
                                 </text>
                             </g>
                         </g>
@@ -34,7 +34,7 @@
                         <g id="_x30_.1.0.0.0.212.0.0.0" transform="translate(10.139958, 20.748235) rotate(90.000000) translate(-10.139958, -20.748235) translate(-10.070568, 10.639144)">
                             <g id="_x30_.1.0.0.212.0.0">
                                 <text id="tspan8666_2_">
-                                    <tspan x="3.15755789" y="16.2509576" fill="#000000">HDMI</tspan>
+                                    <tspan x="3.15755789" y="16.2509576" fill="#ffffff">HDMI</tspan>
                                 </text>
                             </g>
                         </g>
@@ -47,7 +47,7 @@
                         <g id="_x30_.1.0.0.0.213.0.0.0" transform="translate(12.817516, 21.837658) rotate(90.000000) translate(-12.817516, -21.837658) translate(-7.393011, 11.728567)">
                             <g id="_x30_.1.0.0.213.0.0">
                                 <text id="tspan8666_6_">
-                                    <tspan x="1.64277895" y="15.6386836" fill="#000000">Audio</tspan>
+                                    <tspan x="1.64277895" y="15.6386836" fill="#ffffff">Audio</tspan>
                                 </text>
                             </g>
                         </g>
@@ -60,7 +60,7 @@
                         <g id="_x30_.1.0.0.0.215.0.0.0" transform="translate(0.330442, 0.991617)">
                             <g id="_x30_.1.0.0.215.0.0">
                                 <text id="USB-2x">
-                                    <tspan x="1.79560008" y="14.1997382" fill="#000000">USB 2x</tspan>
+                                    <tspan x="1.79560008" y="14.1997382" fill="#ffffff">USB 2x</tspan>
                                 </text>
                             </g>
                         </g>
@@ -73,7 +73,7 @@
                         <g id="_x30_.1.0.0.0.215.0.0.0_1_" transform="translate(0.330442, 0.991617)">
                             <g id="_x30_.1.0.0.215.0.0_1_">
                                 <text id="USB-2x">
-                                    <tspan x="2.43374745" y="14.1997382" fill="#000000">USB 2x</tspan>
+                                    <tspan x="2.43374745" y="14.1997382" fill="#ffffff">USB 2x</tspan>
                                 </text>
                             </g>
                         </g>
@@ -86,7 +86,7 @@
                         <g id="_x30_.1.0.0.0.216.0.0.0" transform="translate(0.281263, 0.681816)">
                             <g id="_x30_.1.0.0.216.0.0" transform="translate(0.000000, 0.000000)">
                                 <text id="ETHERNET">
-                                    <tspan x="1.96966867" y="14.60048" fill="#000000">ETHERNET</tspan>
+                                    <tspan x="1.96966867" y="14.60048" fill="#ffffff">ETHERNET</tspan>
                                 </text>
                             </g>
                         </g>
@@ -99,7 +99,7 @@
                         <g id="_x30_.1.0.0.0.217.0.0.0" transform="translate(2.764800, 0.513879)">
                             <g id="_x30_.1.0.0.217.0.0">
                                 <text id="tspan8666_8_">
-                                    <tspan x="2.61827368" y="15.7222521" fill="#000000">DSI (DISPLAY)</tspan>
+                                    <tspan x="2.61827368" y="15.7222521" fill="#ffffff">DSI (DISPLAY)</tspan>
                                 </text>
                             </g>
                         </g>
@@ -112,7 +112,7 @@
                         <g id="_x30_.1.0.0.0.218.0.0.0" transform="translate(53.244968, 12.742172) scale(-1, -1) translate(-53.244968, -12.742172) translate(2.718653, 2.633081)">
                             <g id="_x30_.1.0.0.218.0.0">
                                 <text id="tspan8666_9_">
-                                    <tspan x="1.74989474" y="16.3843976" fill="#000000">CSI (CAMERA)</tspan>
+                                    <tspan x="1.74989474" y="16.3843976" fill="#ffffff">CSI (CAMERA)</tspan>
                                 </text>
                             </g>
                         </g>
@@ -1107,13 +1107,13 @@
                 </g>
             </g>
             <text id="tspan8666_1_" fill="#FFFFFF" sketch:type="MSTextLayer" font-family="Helvetica" font-size="13.3877895" font-weight="normal">
-                <tspan x="454.657895" y="77.7484139" fill="#000000">GPIO</tspan>
+                <tspan x="454.657895" y="77.7484139" fill="#ffffff">GPIO</tspan>
             </text>
             <text id="PIN" fill="#FFFFFF" sketch:type="MSTextLayer" font-family="Helvetica" font-size="13.3877895" font-weight="normal">
-                <tspan x="499.697289" y="83.5199362" fill="#000000">PIN</tspan>
+                <tspan x="499.697289" y="83.5199362" fill="#ffffff">PIN</tspan>
             </text>
             <text id="PIN-Copy" fill="#FFFFFF" sketch:type="MSTextLayer" font-family="Helvetica" font-size="13.3877895" font-weight="normal" sketch:alignment="right">
-                <tspan x="420.78569" y="84.3684211" fill="#000000">PIN</tspan>
+                <tspan x="420.78569" y="84.3684211" fill="#ffffff">PIN</tspan>
             </text>
             <g id="Group" sketch:type="MSLayerGroup" transform="translate(415.000000, 91.000000)" font-weight="normal" font-family="Helvetica" fill="#FFFFFF" sketch:alignment="right">
                 <text id="01" opacity="0.500116604" sketch:type="MSTextLayer" font-size="13.3877895">
