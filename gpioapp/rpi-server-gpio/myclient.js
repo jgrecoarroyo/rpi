@@ -9,8 +9,9 @@
 
 window.onload = function () {
   var url,
-    i,
-    ports = [7, 11,12, 13, 15, 16, 18, 22, 29, 31, 32, 33, 35, 36, 37, 38, 40];  // the GPIO ports we will read
+    i;
+  var ports_right = [12, 16, 22, 32, 34, 38, 40  ];  // the GPIO ports we will read
+  var ports_left =  [1, 7, 11, 13, 15, 31, 33, 37];  // the GPIO ports we will read
 
   for (i in ports) {
     $('#input_' + ports[i]).html('loading port ' + ports[i] + ' value...');
@@ -33,26 +34,37 @@ window.onload = function () {
      delta.addEventListener("mousedown",function(){alert('hello world!')},false);    //add behaviour
   },false);
   */
-  console.log("-----");
-  var svgDoc = a.contentDocument.getElementById("_1").childNodes; //get the inner DOM of alpha.svg
-  //console.log(svgDoc.getElementById("_1"));
-  //var c = svgDoc.getElementById("_1").childNodes;
-  console.log(svgDoc[1].textContent);
-  svgDoc[1].textContent = '0';
-  console.log("-----");
+  //console.log("-----");
+  //var svgDoc = a.contentDocument.getElementById("_1").childNodes;
+  //svgDoc[1].textContent = '0';
+  //console.log("-----");
 
-/*
+
   setInterval( function () {
-    for (i in ports) {
-      url = document.URL + 'pins/' + ports[i];
+    for (i in ports_left) {
+      url = document.URL + 'pins/' + ports_left[i];
       console.log('making API call ' + url);
 
       $.getJSON(url, function (data) {
         console.log('API response received. port ' + data.pin + ' value = ' + data.value);
+        var svgDoc = a.contentDocument.getElementById("_"+i).childNodes;
+        svgDoc[i].textContent = data.value;
+        $('#input_' + data.pin).html('PIN input port ' + data.pin + ' value is ' + data.value);
+      });
+    } // for
+
+    for (i in ports_right) {
+      url = document.URL + 'pins/' + ports_right[i];
+      console.log('making API call ' + url);
+
+      $.getJSON(url, function (data) {
+        console.log('API response received. port ' + data.pin + ' value = ' + data.value);
+        var svgDoc = a.contentDocument.getElementById("_"+i).childNodes;
+        svgDoc[i].textContent = data.value;
         $('#input_' + data.pin).html('PIN input port ' + data.pin + ' value is ' + data.value);
       });
     } // for
   }, 1000); // setInterval
-  */
+
 
 }; //onload
