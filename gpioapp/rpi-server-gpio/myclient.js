@@ -38,6 +38,7 @@ window.onload = function () {
   //console.log(svgDoc.getElementById("_1"));
   //var c = svgDoc.getElementById("_1").childNodes;
   console.log(svgDoc[1].textContent);
+  svgDoc[1].textContent = '0';
   console.log("-----");
 
 /*
