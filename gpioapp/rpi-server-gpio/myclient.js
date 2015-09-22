@@ -15,7 +15,27 @@ window.onload = function () {
   for (i in ports) {
     $('#input_' + ports[i]).html('loading port ' + ports[i] + ' value...');
   }
+  //document.domain = 'localhost';
 
+  //var svg = document.getElementById('svg_object').contentDocument;
+  //var svgel = svg.getElementById('01');
+  //console.log(svg);
+
+  var a = document.getElementById("svg_object");
+  //it's important to add an load event listener to the object, as it will load the svg doc asynchronously
+  a.addEventListener("load",function(){
+     var svgDoc = a.contentDocument; //get the inner DOM of alpha.svg
+     console.log("-----");
+     console.log(a);
+     console.log("-----");
+     var delta = svgDoc.getElementById("PIN"); //get the inner element by id
+     delta.addEventListener("mousedown",function(){alert('hello world!')},false);    //add behaviour
+  },false);
+  console.log("-----");
+  console.log(a.contentDocument);
+  console.log("-----");
+
+/*
   setInterval( function () {
     for (i in ports) {
       url = document.URL + 'pins/' + ports[i];
@@ -27,5 +47,6 @@ window.onload = function () {
       });
     } // for
   }, 1000); // setInterval
+  */
 
 }; //onload
