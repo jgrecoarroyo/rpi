@@ -1129,7 +1129,7 @@
                     <tspan x="9.23003411" y="87.2324497" fill="#ffffff">07</tspan>
                 </text>
                 <text id="09" opacity="0.500116604" sketch:type="MSTextLayer" font-size="13.388">
-                    <tspan x="9.23003411" y="111.19281" fill="#ffffff">09</tspan>
+                    <tspan x="9.23003411" y="111.19281" fill="#000000">09</tspan>
                 </text>
                 <text id="11" sketch:type="MSTextLayer" font-size="13.388">
                     <tspan x="10.2171376" y="136.19281" fill="#ffffff">11</tspan>
