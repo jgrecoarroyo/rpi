@@ -34,10 +34,10 @@ window.onload = function () {
   },false);
   */
   console.log("-----");
-  var svgDoc = a.contentDocument; //get the inner DOM of alpha.svg
-  console.log(svgDoc.getElementById("_1"));
-  var select = document.querySelector("#\2d > tspan");
-  console.log(select);
+  var svgDoc = a.contentDocument.getElementById("_1").childNodes; //get the inner DOM of alpha.svg
+  //console.log(svgDoc.getElementById("_1"));
+  //var c = svgDoc.getElementById("_1").childNodes;
+  console.log(svgDoc[1].textContent);
   console.log("-----");
 
 /*
