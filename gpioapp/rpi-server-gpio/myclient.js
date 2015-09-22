@@ -50,7 +50,7 @@ window.onload = function () {
 
       $.getJSON(url, function (data) {
         console.log('API response received. port ' + data.pin + ' value = ' + data.value);
-        var svgDoc = a.contentDocument.getElementById("_"+data.pin).childNodes;
+        var svgDoc = a.contentDocument.getElementById("_"+ports_left[i]).childNodes;
         svgDoc[1].textContent = data.value;
         $('#input_' + data.pin).html('PIN input port ' + data.pin + ' value is ' + data.value);
       });
@@ -62,7 +62,7 @@ window.onload = function () {
 
       $.getJSON(url, function (data) {
         console.log('API response received. port ' + data.pin + ' value = ' + data.value);
-        var svgDoc = a.contentDocument.getElementById("_"+data.pin).childNodes;
+        var svgDoc = a.contentDocument.getElementById("_"+ports_right[i]).childNodes;
         svgDoc[1].textContent = data.value;
         $('#input_' + data.pin).html('PIN input port ' + data.pin + ' value is ' + data.value);
       });
