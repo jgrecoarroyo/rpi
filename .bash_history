@@ -292,3 +292,77 @@ sudo node gpioapp/rpi-server-gpio/myapi.js
 git pull
 sudo node gpioapp/rpi-server-gpio/myapi.js 
 nano gpioapp/rpi-server-gpio/myclient.js 
+l
+ls
+mkdir temp
+cd temp/
+curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
+sudo apt-get install -y build-essential python-dev python-rpi.gpio nodejs
+l
+ls
+sudo npm cache clean
+wget http://node-arm.herokuapp.com/node_archive_armhf.deb
+l
+ls
+sudo rm node_archive_armhf.deb 
+l
+ls
+cd ..
+l
+ls
+sudo npm install -g --unsafe-perm  node-red
+node-red-pi --max-old-space-size=12
+l
+ls
+cd temp/
+l
+ls
+cd ..
+ls
+rm temp/
+rm -rf temp/
+ls
+nano README.md 
+git add -A
+git commit -m 'node red for pi installed'
+git push
+ls
+ls -la
+cd .node-red/
+ls
+ls -la
+nano flows_raspberrypi.json 
+cd 
+sudo raspi-config
+ls
+mkdir temp
+cd temp/
+sudo apt-get install motion
+sudo nano /etc/motion/motion.conf
+sudo nano /etc/default/motion
+sudo service motion start
+sudo service motion stop
+sudo apt-get install libjpeg62
+cd ..
+ls
+mkdir mmal
+cd mmal/
+wget https://www.dropbox.com/s/xdfcxm5hu71s97d/motion-mmal.tar.gz
+ls
+tar -zxvf motion-mmal.tar.gz
+sudo nano motion-mmalcam.conf
+./motion -n -c motion-mmalcam.conf
+sudo nano motion-mmalcam.conf
+./motion -n -c motion-mmalcam.conf
+ls -la
+rm motion-mmal.tar.gz 
+ls
+ls -la
+nano startmotion
+ls
+nano stopmotion
+sudo chmod 755 startmotion 
+sudo chmod 755 stopmotion 
+./startmotion 
+./stopmotion 
+sudo raspi-config

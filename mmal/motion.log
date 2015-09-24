@@ -1,0 +1,284 @@
+[1978442616] [NTC] [ALL] [Sep 24 12:11:31] motion_startup: Using log type (ALL) log level (WRN)
+[1] [ALR] [VID] [Sep 24 12:11:31] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:11:31] mmalcam_start: MMAL Camera using video capture
+[1] [ALR] [VID] [Sep 24 12:13:13] MMAL Camera cleanup
+[1978307448] [NTC] [ALL] [Sep 24 12:14:32] motion_startup: Using log type (ALL) log level (WRN)
+[1] [ALR] [VID] [Sep 24 12:14:32] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:14:32] mmalcam_start: MMAL Camera using video capture
+[1] [ALR] [VID] [Sep 24 12:14:57] MMAL Camera cleanup
+[1978647416] [NTC] [ALL] [Sep 24 12:17:04] motion_startup: Using log type (ALL) log level (WRN)
+[1] [ALR] [VID] [Sep 24 12:17:04] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:17:04] mmalcam_start: MMAL Camera using video capture
+[1] [ALR] [VID] [Sep 24 12:19:17] MMAL Camera cleanup
+[1978344312] [NTC] [ALL] [Sep 24 12:24:37] motion_startup: Using log type (ALL) log level (WRN)
+[1] [ALR] [VID] [Sep 24 12:24:37] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:24:37] mmalcam_start: MMAL Camera using video capture
+[0] [ERR] [STR] [Sep 24 12:24:37] httpd_run: motion-httpd failed bind() interface 127.0.0.1 / port 8080, retrying: 
+[0] [ERR] [STR] [Sep 24 12:24:37] httpd_run: motion-httpd socket failed interface 127.0.0.1 / port 8080, retrying: 
+[0] [ERR] [STR] [Sep 24 12:24:37] httpd_run: motion-httpd failed bind() interface 127.0.0.1 / port 8080, retrying: 
+[0] [ERR] [STR] [Sep 24 12:24:37] httpd_run: motion-httpd socket failed interface 127.0.0.1 / port 8080, retrying: 
+[0] [CRT] [STR] [Sep 24 12:24:37] httpd_run: motion-httpd ERROR bind() [interface 127.0.0.1 port 8080]: 
+[1] [CRT] [STR] [Sep 24 12:24:37] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:24:37] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:24:37] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:24:37] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:24:37] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:24:38] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:24:38] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:24:38] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:24:38] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:24:38] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:24:38] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:24:38] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:24:39] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:24:39] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:24:39] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:24:39] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:24:39] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:24:39] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:24:39] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:24:40] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:24:40] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:24:40] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:24:40] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:24:40] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:24:40] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:24:40] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:24:41] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:24:41] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:24:41] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:24:41] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:24:41] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:24:41] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:24:41] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:24:42] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:24:42] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:24:42] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:24:42] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:24:42] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:24:42] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:24:42] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:24:43] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:24:43] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:24:43] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:24:43] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:24:43] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:24:43] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:24:43] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:24:44] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:24:44] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:24:44] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:24:44] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:24:44] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:24:44] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:24:44] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:24:45] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:24:45] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:24:45] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:24:45] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:24:45] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:24:45] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:24:45] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:24:46] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:24:46] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:24:46] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:24:46] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:24:46] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:24:46] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:24:46] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:24:47] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:24:47] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:24:47] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:24:47] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:24:47] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:24:47] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:24:47] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:24:48] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:24:48] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:24:48] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:24:48] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:24:48] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:24:48] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:24:48] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:24:49] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:24:49] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:24:49] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:24:49] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:24:49] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:24:49] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:24:49] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:24:50] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:24:50] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:24:50] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:24:50] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:24:50] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:24:50] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:24:50] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:24:51] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:24:51] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:24:51] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:24:51] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:24:51] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:24:51] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:24:51] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:24:52] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:24:52] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:24:52] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:24:52] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:24:52] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:24:52] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:24:52] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:24:53] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:24:53] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:24:53] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:24:53] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:24:53] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:24:53] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:24:53] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:24:54] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:24:54] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:24:54] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:24:54] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:24:54] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:24:54] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:24:54] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:24:55] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:24:55] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:24:55] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:24:55] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:24:55] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:24:55] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:24:55] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:24:56] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:24:56] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:24:56] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:24:56] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:24:56] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:24:56] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:24:56] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:24:57] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:24:57] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:24:57] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:24:57] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:24:57] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:24:57] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:24:57] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:24:58] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:24:58] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:24:58] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:24:58] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:24:58] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:24:58] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:24:58] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:24:59] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:24:59] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:24:59] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:24:59] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:24:59] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:24:59] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:24:59] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:25:00] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:25:00] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:25:00] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:25:00] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:25:00] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:25:00] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:25:00] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:25:01] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:25:01] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:25:01] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:25:01] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:25:01] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:25:01] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:25:01] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:25:02] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:25:02] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:25:02] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:25:02] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:25:02] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:25:02] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:25:02] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:25:03] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:25:03] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:25:03] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:25:03] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:25:03] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:25:03] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:25:03] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:25:04] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:25:04] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:25:04] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:25:04] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:25:04] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:25:04] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:25:04] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:25:05] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:25:05] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:25:05] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:25:05] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:25:05] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:25:05] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:25:05] MMAL Camera cleanup
+[1978033016] [NTC] [ALL] [Sep 24 12:25:15] motion_startup: Using log type (ALL) log level (WRN)
+[1] [ALR] [VID] [Sep 24 12:25:15] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:25:15] mmalcam_start: MMAL Camera using video capture
+[0] [ERR] [STR] [Sep 24 12:25:15] httpd_run: motion-httpd failed bind() interface 127.0.0.1 / port 8080, retrying: 
+[0] [ERR] [STR] [Sep 24 12:25:15] httpd_run: motion-httpd socket failed interface 127.0.0.1 / port 8080, retrying: 
+[0] [ERR] [STR] [Sep 24 12:25:15] httpd_run: motion-httpd failed bind() interface 127.0.0.1 / port 8080, retrying: 
+[0] [ERR] [STR] [Sep 24 12:25:15] httpd_run: motion-httpd socket failed interface 127.0.0.1 / port 8080, retrying: 
+[0] [CRT] [STR] [Sep 24 12:25:15] httpd_run: motion-httpd ERROR bind() [interface 127.0.0.1 port 8080]: 
+[1] [CRT] [STR] [Sep 24 12:25:15] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:25:15] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:25:15] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:25:15] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:25:15] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:25:16] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:25:16] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:25:16] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:25:16] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:25:16] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:25:16] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:25:16] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:25:17] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:25:17] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:25:17] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:25:17] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:25:17] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:25:17] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:25:17] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:25:18] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:25:18] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:25:18] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:25:18] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:25:18] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:25:18] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:25:18] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:25:19] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:25:19] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:25:19] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:25:19] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:25:19] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:25:19] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:25:19] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:25:20] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:25:20] mmalcam_start: MMAL Camera using video capture
+[1] [CRT] [STR] [Sep 24 12:25:20] http_bindsock: motion-stream bind() failed, retrying: 
+[1] [ERR] [STR] [Sep 24 12:25:20] http_bindsock: motion-stream socket failed, retrying: 
+[1] [CRT] [STR] [Sep 24 12:25:20] http_bindsock: motion-stream creating socket/bind ERROR: 
+[1] [ERR] [ALL] [Sep 24 12:25:20] motion_init: Problem enabling motion-stream server in port 8081: 
+[1] [ALR] [VID] [Sep 24 12:25:20] MMAL Camera cleanup
+[1] [ALR] [VID] [Sep 24 12:25:21] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:25:21] mmalcam_start: MMAL Camera using video capture
+[1] [ALR] [VID] [Sep 24 12:25:21] MMAL Camera cleanup
+[1978631032] [NTC] [ALL] [Sep 24 12:25:31] motion_startup: Using log type (ALL) log level (WRN)
+[1] [ALR] [VID] [Sep 24 12:25:31] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:25:31] mmalcam_start: MMAL Camera using video capture
+[1] [ALR] [VID] [Sep 24 12:30:06] MMAL Camera cleanup
+[1978311544] [NTC] [ALL] [Sep 24 12:30:12] motion_startup: Using log type (ALL) log level (WRN)
+[1] [ALR] [VID] [Sep 24 12:30:12] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:30:12] mmalcam_start: MMAL Camera using video capture
+[1] [ALR] [VID] [Sep 24 12:30:24] MMAL Camera cleanup
+[1978614648] [NTC] [ALL] [Sep 24 12:36:55] motion_startup: Using log type (ALL) log level (WRN)
+[1] [ALR] [VID] [Sep 24 12:36:55] mmalcam_start: MMAL Camera thread starting... for camera (vc.ril.camera) of 640 x 480 at 30 fps
+[1] [ALR] [VID] [Sep 24 12:36:55] mmalcam_start: MMAL Camera using video capture
+[1] [ALR] [VID] [Sep 24 12:37:12] MMAL Camera cleanup
