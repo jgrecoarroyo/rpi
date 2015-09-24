@@ -250,3 +250,45 @@ zip rpi-webapp-gpio/ .
 zip -r rpiwgpio.zip rpi-webapp-gpio/
 ls
 ping 10.156.163.57
+sudo node gpioapp/rpi-server-gpio/myapi.js 
+git pull
+sudo node gpioapp/rpi-server-gpio/myapi.js 
+git pull
+git -f pull
+git fetch --all
+git reset --hard origin/master
+git pull
+sudo node gpioapp/rpi-server-gpio/myapi.js 
+git pull
+sudo node gpioapp/rpi-server-gpio/myapi.js 
+git pull
+sudo node gpioapp/rpi-server-gpio/myapi.js 
+git pull
+sudo node gpioapp/rpi-server-gpio/myapi.js 
+git pull
+sudo node gpioapp/rpi-server-gpio/myapi.js 
+git pull
+sudo node gpioapp/rpi-server-gpio/myapi.js 
+git pull
+sudo node gpioapp/rpi-server-gpio/myapi.js 
+git pull
+sudo node gpioapp/rpi-server-gpio/myapi.js 
+sudo shutdown -h 0 
+sudo node gpioapp/rpi-server-gpio/myapi.js 
+git pull
+sudo node gpioapp/rpi-server-gpio/myapi.js 
+git pull
+sudo node gpioapp/rpi-server-gpio/myapi.js 
+git pull
+sudo node gpioapp/rpi-server-gpio/myapi.js 
+git pull
+sudo node gpioapp/rpi-server-gpio/myapi.js 
+git pull
+sudo node gpioapp/rpi-server-gpio/myapi.js 
+git pull
+sudo node gpioapp/rpi-server-gpio/myapi.js 
+git pull
+sudo node gpioapp/rpi-server-gpio/myapi.js 
+git pull
+sudo node gpioapp/rpi-server-gpio/myapi.js 
+nano gpioapp/rpi-server-gpio/myclient.js 
