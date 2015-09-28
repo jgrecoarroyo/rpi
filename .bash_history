@@ -366,3 +366,104 @@ sudo chmod 755 stopmotion
 ./startmotion 
 ./stopmotion 
 sudo raspi-config
+./startmotion 
+cd mmal/
+./startmotion 
+./stopmotion 
+sudo ./startmotion 
+sudo ./stopmotion 
+ls
+./motion -n -c motion-mmalcam.conf
+sudo ./startmotion 
+sudo ./stopmotion 
+sudo ./startmotion 
+sudo ./stopmotion 
+cd ..
+git add -A
+git status
+git commit -m 'camera streaming sensor added'
+git push
+ls
+cd temp/
+ls
+cd ..
+ls
+sudo shutdown -h 0
+ls
+exit
+sudo shutdown -h 0
+pwd
+ls
+cd gpioapp/
+cd rpi-server-gpio/
+ls
+sudo node myapi.js 
+python -v
+python -version
+python --version
+ls
+cd
+ls
+cd temp/
+ls
+cd ..
+git clone https://github.com/abelectronicsuk/ABElectronics_Python_Libraries.git
+ls
+cd ABElectronics_Python_Libraries/
+ls
+sudo apt-get update
+sudo apt-get install python-smbus
+export PYTHONPATH=${PYTHONPATH}:/home/pi/ABElectronics_Python_Libraries/ADCPi/
+python
+ls
+ls -la
+cd ADCPi/
+ls
+nano demo-tmp36.py 
+python demo-tmp36.py
+cd ..
+ls -la
+python ADCPi/demo-tmp36.py 
+sudo apt-get install i2c-tools
+sudo apt-get install python-smbus
+echo $PYTHONPATH
+pwd
+sudo python ADCPi/demo-tmp36.py 
+nano ADCPi/demo-tmp36.py 
+cd ABElectronics_Python_Libraries/
+ls
+python ADCPi/demo-tmp36.py 
+sudo raspi-config
+cd ABElectronics_Python_Libraries/
+python ADCPi/demo-tmp36.py 
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
+sudo apt-get install python-smbus
+sudo apt-get install python-dev
+sudo apt-get install python3-dev
+cd
+pwd
+cd temp/
+ls
+wget http://ftp.de.debian.org/debian/pool/main/i/i2c-tools/i2c-tools_3.1.0.orig.tar.bz2
+tar xf i2c-tools_3.1.0.orig.tar.bz2
+cd i2c-tools-3.1.0/py-smbus
+mv smbusmodule.c smbusmodule.c.orig
+sudo bash
+ls
+cd .
+ls
+cd ..
+ls
+cd ..
+ls
+rm -rf i2c-tools-3.1.0/
+rm i2c-tools_3.1.0.orig.tar.bz2 
+ls
+sudo apt-get install i2c-tools
+sudo nano /etc/modprobe.d/raspi-blacklist.conf
+sudo nano /boot/config.txt
+sudo nano /etc/modules
+sudo adduser pi i2c
+sudo reboot
