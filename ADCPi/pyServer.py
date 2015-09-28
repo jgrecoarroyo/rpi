@@ -3,15 +3,14 @@ from BaseHTTPServer import HTTPServer
 from BaseHTTPServer import BaseHTTPRequestHandler
 import cgi
 
-# # ADC libraries
-# from ABE_ADCPi import ADCPi
-# from ABE_helpers import ABEHelpers
-# import time, os
-#
-# # Initialise ADC connections
-# i2c_helper = ABEHelpers()
-# bus = i2c_helper.get_smbus()
-# adc = ADCPi(bus, 0x68, 0x69, 12)
+# ADC libraries
+from ABE_ADCPi import ADCPi
+from ABE_helpers import ABEHelpers
+import time, os
+# Initialise ADC connections
+i2c_helper = ABEHelpers()
+bus = i2c_helper.get_smbus()
+adc = ADCPi(bus, 0x68, 0x69, 12)
 
 
 PORT = 8003
@@ -61,9 +60,9 @@ class JSONRequestHandler (BaseHTTPRequestHandler):
                     # { pin: '7', gpio: '4', value: null },
                     # output_temp = output_temp +  "{'adc':'" + str(adc_pin) + "','value':'" + str(adc.read_voltage(adc_pin)) + "'},"
                     if adc_pin < 8:
-                        output_temp = output_temp +  '{"adc":"' + str(adc_pin) + '","value":"' + str(adc_pin) + '"},'
+                        output_temp = output_temp +  '{"channel":"' + str(adc_pin) + '","value":"' + str(adc.read_voltage(adc_pin)) + '"},'
                     else:
-                        output_temp = output_temp +  '{"adc":"' + str(adc_pin) + '","value":"' + str(adc_pin) + '"}'
+                        output_temp = output_temp +  '{"channel":"' + str(adc_pin) + '","value":"' + str(adc.read_voltage(adc_pin)) + '"}'
                 output = output_header + output_temp + output_footer
             else:
                 output = open(FILE_PREFIX + "/" + self.path[1:] + ".json", 'r').read()
@@ -114,5 +113,5 @@ class JSONRequestHandler (BaseHTTPRequestHandler):
             self.send_response(500)
 
 
-server = HTTPServer(("localhost", PORT), JSONRequestHandler)
+server = HTTPServer(("127.0.0.1", PORT), JSONRequestHandler)
 server.serve_forever()

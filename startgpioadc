@@ -1,0 +1,4 @@
+#!/bin/bash
+
+nohup python /home/pi/ADCPi/pyServer.py > /home/pi/ADCPi/logs-adc.txt &
+nohup node /home/pi/gpioapp/rpi-server-gpio/myapi.js > /home/pi/gpioapp/rpi-server-gpio/logs-gpio.txt &

@@ -21,6 +21,7 @@
 var http      = require('http');
 var express   = require('express');
 var gpio      = require('pi-gpio');
+var request   = require('request');
 
 var app       = express();
 
@@ -234,8 +235,22 @@ app.get('/pins/:id', function (req, res) {
 // Express route for incoming requests for a list of all inputs
 app.get('/pins', function (req, res) {
   // send array of inputs objects as a JSON string
-  console.log('all inputs');
+  console.log('all pin inputs');
   res.status(200).send(inputs);
+}); // apt.get()
+
+// Express route for incoming requests for a list of all adcs inputs
+app.get('/adcs', function (req, res) {
+  // First get values from internal server (python server exposing ADC values)
+  url = 'http://localhost:8003/adcs';
+  console.log('making API call ' + url);
+  request(url, function (error, response, body) {
+    if (!error && response.statusCode == 200) {
+      var info = JSON.parse(response.body)
+      console.log(info);
+      res.status(200).send(info);
+    }
+  });
 }); // apt.get()
 
 // Express route for any other unrecognised incoming requests
@@ -269,3 +284,4 @@ process.on('SIGINT', function() {
 //
 app.listen(3000);
 console.log('App Server is listening on port 3000');
+

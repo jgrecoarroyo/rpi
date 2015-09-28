@@ -467,3 +467,175 @@ sudo nano /boot/config.txt
 sudo nano /etc/modules
 sudo adduser pi i2c
 sudo reboot
+ls
+cd ABElectronics_Python_Libraries/
+ls
+python ADCPi/demo-tmp36.py 
+ls
+cp -r ADCPi/ /home/pi/ADCPi
+cd
+ls
+cd ADCPi/
+python demo-tmp36.py 
+cd ..
+ls
+mv -r ABElectronics_Python_Libraries/ temp/
+mv ABElectronics_Python_Libraries/ temp/
+l
+ls
+cd ADCPi/
+ls -la
+python demo-readvoltage.py 
+nano demo-readvoltage.py 
+cd ..
+ls
+cd gpioapp/
+ls
+cd rpi-server-gpio/
+ls
+cd
+git add -A
+git commit -m 'ADC libraries and python example 8 channels working'
+git push
+git pull
+ls -la
+cd ADCPi/
+ls
+python pyServer.py 
+nano pyServer.py 
+python demo-tmp36.py 
+nano pyServer.py 
+python demo-tmp36.py 
+python pyServer.py 
+cd 
+ls
+cd gpioapp/rpi-server-gpio/
+node myapi.js 
+exit
+git pull
+cd ADCPi/
+ll
+ls -la
+python pyServer.py 
+nano pyServer.py 
+python pyServer.py 
+nano pyServer.py 
+python pyServer.py 
+nano pyServer.py 
+python pyServer.py 
+nano pyServer.py 
+python pyServer.py 
+nano pyServer.py 
+python pyServer.py 
+nano pyServer.py 
+cd
+cd ADCPi/
+nano pyServer.py 
+python pyServer.py 
+cd
+ls -la
+cd mmal/
+ls -la
+nano startmotion 
+cd 
+ls -la
+nano startgpioadc
+ls -la
+cd mmal/
+ls
+nano stopmotion 
+nano startmotion 
+cd 
+ls -la
+sudo chmod 777 startgpioadc 
+ls -la
+sudo ./startgpioadc 
+ls
+cd ADCPi/
+ls
+cat logs-adc.txt 
+cd ..
+ls
+nano startgpioadc 
+python /home/pi/ADCPi/pyServer.py > /home/pi/ADCPi/logs-adc.txt
+sudo python /home/pi/ADCPi/pyServer.py > /home/pi/ADCPi/logs-adc.txt
+sudo python /home/pi/ADCPi/pyServer.py
+nano startgpioadc 
+sudo ./startgpioadc 
+nano startgpioadc 
+sudo ./startgpioadc 
+sudo reboot
+curl 'http://localhost:8003/adcs'
+ll
+ls -la
+cd gpioapp/rpi-server-gpio/
+ls -la
+nano myapi2.js
+ls -la
+rm myapi.js 
+mv myapi2.js myapi.js
+ls -la
+cd
+cd gpioapp/rpi-server-gpio/
+node myapi.js 
+nano myapi.js 
+cd
+npm install jquery
+npm install jsdom@3.1.2
+nano myapi.js 
+cd gpioapp/rpi-server-gpio/
+node myapi.js 
+nano myapi.js 
+rm myapi.js 
+nano myapi.js 
+node myapi.js 
+npm install --save request
+node myapi.js 
+nano myapi.js 
+node myapi.js 
+nano myapi.js 
+node myapi.js 
+nano myapi.js 
+node myapi.js 
+nano myapi.js 
+node myapi.js 
+nano myapi.js 
+node myapi.js 
+nano myapi.js 
+node myapi.js 
+curl 'http://localhost:8003/adcs'
+node myapi.js 
+nano myapi.js 
+node myapi.js 
+pwd
+ls -la
+ls
+sudo ./startgpioadc 
+nano startgpioadc 
+sudo ./startgpioadc 
+ls
+cd gpioapp/rpi-server-gpio/
+ls
+cat logs-gpio.txt 
+cd
+nano startgpioadc 
+sudo ./startgpioadc 
+cd ADCPi/
+ls
+cd ..
+cd mmal/
+ls
+nano motion
+cd ..
+ls
+jobs
+ps
+killall bash
+ps
+nano mmal/stopmotion 
+kill -l
+ps x
+ps
+kill 2353
+ps
+sudo reboot
