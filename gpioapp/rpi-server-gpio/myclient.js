@@ -73,7 +73,7 @@ window.onload = function () {
     } // for
 
     for (i in channels) {
-      url = document.URL + 'adcs/';
+      url = document.URL + 'adcs/' + channels[i];
       console.log('making API call ' + url);
 
       $.getJSON(url, function (data) {
