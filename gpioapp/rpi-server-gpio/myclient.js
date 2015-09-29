@@ -12,12 +12,16 @@ window.onload = function () {
     i;
   var ports_right = [12, 16, 22, 32, 38, 40   ];  // the GPIO ports we will read
   var ports_left =  [7, 11, 13, 15, 29, 31, 33, 37];  // the GPIO ports we will read
+  var channels = [1, 2, 3, 4, 5, 6, 7, 8]; // the ADC channels we will read
 
   for (i in ports_right) {
     $('#input_' + ports_right[i]).html('loading port ' + ports_right[i] + ' value...');
   }
   for (i in ports_left) {
     $('#input_' + ports_left[i]).html('loading port ' + ports_left[i] + ' value...');
+  }
+  for (i in channels) {
+    $('#channel_' + channels[i]).html('loading channel ' + channels[i] + ' value...');
   }
   //document.domain = 'localhost';
 
@@ -65,6 +69,18 @@ window.onload = function () {
         var svgDoc = a.contentDocument.getElementById("_"+data.pin).childNodes;
         svgDoc[1].textContent = data.value;
         $('#input_' + data.pin).html('PIN input port ' + data.pin + ' value is ' + data.value);
+      });
+    } // for
+
+    for (i in channel) {
+      url = document.URL + 'adcs/' + channel[i];
+      console.log('making API call ' + url);
+
+      $.getJSON(url, function (data) {
+        console.log('API response received. channel ' + data.channel + ' value = ' + data.value);
+        //var svgDoc = a.contentDocument.getElementById("_"+data.pin).childNodes;
+        //svgDoc[1].textContent = data.value;
+        $('#channel_' + data.channel).html('PIN input port ' + data.channel + ' value is ' + data.value);
       });
     } // for
   }, 1000); // setInterval
