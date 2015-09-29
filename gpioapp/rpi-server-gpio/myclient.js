@@ -72,8 +72,8 @@ window.onload = function () {
       });
     } // for
 
-    for (i in channel) {
-      url = document.URL + 'adcs/' + channel[i];
+    for (i in channels) {
+      url = document.URL + 'adcs/';
       console.log('making API call ' + url);
 
       $.getJSON(url, function (data) {
