@@ -253,6 +253,41 @@ app.get('/adcs', function (req, res) {
   });
 }); // apt.get()
 
+// Express route for incoming requests for a single input
+app.get('/adcs/:id', function (req, res) {
+
+  request(url, function (error, response, body) {
+    if (!error && response.statusCode == 200) {
+      var info = JSON.parse(response.body)
+      //console.log(info);
+      //res.status(200).send(info);
+
+      var i;
+
+      // console.log('received API request for port number ' + req.params.id);
+
+       for (i in info){
+         if ((req.params.id === info[i].channel)) {
+           // send to client an inputs object as a JSON string
+           res.send(info[i]);
+           return;
+         }
+       } // for
+
+       console.log('invalid input port');
+       res.status(403).send('dont recognise that input channel number ' + req.params.id + ', numbers 1 to 8 used!');
+
+    }
+  });
+
+
+}); // apt.get()
+
+
+
+
+
+
 // Express route for any other unrecognised incoming requests
 app.get('*', function (req, res) {
   res.status(404).send('Unrecognised API call');
@@ -284,4 +319,3 @@ process.on('SIGINT', function() {
 //
 app.listen(3000);
 console.log('App Server is listening on port 3000');
-
