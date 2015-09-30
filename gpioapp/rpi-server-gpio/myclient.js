@@ -80,9 +80,10 @@ window.onload = function () {
         // console.log('API response received. channel ' + data.channel + ' value = ' + data.value);
         //var svgDoc = svg_object.contentDocument.getElementById("--V").childNodes;
         console.log('---s---');
-        var adc = svg_object.contentDocument.getElementById("_ADC_8").childNodes;
+        var adc = svg_object.contentDocument.getElementById("_ADC_" + i).childNodes[0];
+        console.log("_ADC_" + i);
         console.log(adc);
-        console.log(adc[0].textContent);
+        console.log(adc.textContent);
         console.log('---e---');
         //svgDoc[0].parentNode.children[i].textContent = data.value;
         svg_object.contentDocument.getElementById("_ADC_" + i).childNodes[0].textContent = data.value;
