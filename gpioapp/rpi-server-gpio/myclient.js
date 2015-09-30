@@ -86,7 +86,7 @@ window.onload = function () {
         console.log(adc.textContent);
         console.log('---e---');
         //svgDoc[0].parentNode.children[i].textContent = data.value;
-        svg_object.contentDocument.getElementById("_ADC_" + i).childNodes[0].textContent = data.value;
+        svg_object.contentDocument.getElementById("_ADC_" + data.channel).childNodes[0].textContent = data.value;
         $('#channel_' + data.channel).html('PIN input port ' + data.channel + ' value is ' + data.value);
       });
     } // for
