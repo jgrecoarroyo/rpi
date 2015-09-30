@@ -78,7 +78,8 @@ window.onload = function () {
 
       $.getJSON(url, function (data) {
         console.log('API response received. channel ' + data.channel + ' value = ' + data.value);
-        //var svgDoc = a.contentDocument.getElementById("_"+data.pin).childNodes;
+        var svgDoc = a.contentDocument.getElementById("_ADC_"+data.pin).childNodes;
+        console.log(svgDoc);
         //svgDoc[1].textContent = data.value;
         $('#channel_' + data.channel).html('PIN input port ' + data.channel + ' value is ' + data.value);
       });
