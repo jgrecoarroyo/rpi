@@ -45,8 +45,8 @@ for (i in inputs) {
   console.log('opening GPIO port ' + inputs[i].gpio + ' on pin ' + inputs[i].pin + ' as input');
   gpio.open(inputs[i].pin, "input", function (err) {
     if (err) { throw err; }
-  }
-}); // gpio.open
+  }); // gpio.open
+} // for
 
 // ------------------------------------------------------------------------
 // read and store the GPIO inputs twice a second
