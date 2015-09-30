@@ -74,14 +74,14 @@ window.onload = function () {
 
     for (i in channels) {
       url = document.URL + 'adcs/' + channels[i];
-      // console.log('making API call ' + url);
+      console.log('making API call ' + url);
 
       $.getJSON(url, function (data) {
         // console.log('API response received. channel ' + data.channel + ' value = ' + data.value);
         //var svgDoc = svg_object.contentDocument.getElementById("--V").childNodes;
         console.log('---s---');
-        var adc = svg_object.contentDocument.getElementById("_ADC_" + i).childNodes[0];
-        console.log("_ADC_" + i);
+        var adc = svg_object.contentDocument.getElementById("_ADC_" + data.channel).childNodes[0];
+        console.log("_ADC_" + data.channel);
         console.log(adc);
         console.log(adc.textContent);
         console.log('---e---');
