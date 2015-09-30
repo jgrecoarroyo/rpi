@@ -29,7 +29,7 @@ window.onload = function () {
   //var svgel = svg.getElementById('01');
   //console.log(svg);
 
-  var a = document.getElementById("svg_object");
+  var svg_object = document.getElementById("svg_object");
   //it's important to add an load event listener to the object, as it will load the svg doc asynchronously
   /*
   a.addEventListener("load",function(){
@@ -54,7 +54,7 @@ window.onload = function () {
 
       $.getJSON(url, function (data) {
         console.log('API response received. port ' + data.pin + ' value = ' + data.value);
-        var svgDoc = a.contentDocument.getElementById("_"+data.pin).childNodes;
+        var svgDoc = svg_object.contentDocument.getElementById("_"+data.pin).childNodes;
         svgDoc[1].textContent = data.value;
         $('#input_' + data.pin).html('PIN input port ' + data.pin + ' value is ' + data.value);
       });
@@ -66,7 +66,7 @@ window.onload = function () {
 
       $.getJSON(url, function (data) {
         console.log('API response received. port ' + data.pin + ' value = ' + data.value);
-        var svgDoc = a.contentDocument.getElementById("_"+data.pin).childNodes;
+        var svgDoc = svg_object.contentDocument.getElementById("_"+data.pin).childNodes;
         svgDoc[1].textContent = data.value;
         $('#input_' + data.pin).html('PIN input port ' + data.pin + ' value is ' + data.value);
       });
@@ -78,8 +78,8 @@ window.onload = function () {
 
       $.getJSON(url, function (data) {
         console.log('API response received. channel ' + data.channel + ' value = ' + data.value);
-        var svgDoc = a.contentDocument.getElementById("_ADC_"+data.pin).childNodes;
-        console.log(svgDoc);
+        //var svgDoc = svg_object.contentDocument.getElementById("_ADC_"+data.pin).childNodes;
+        console.log(svg_object.contentDocument);
         //svgDoc[1].textContent = data.value;
         $('#channel_' + data.channel).html('PIN input port ' + data.channel + ' value is ' + data.value);
       });
