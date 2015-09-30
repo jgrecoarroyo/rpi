@@ -65,7 +65,7 @@
                                     <g id="_x30_.1.0.0.0.215.0.0.0" transform="translate(0.330442, 0.991617)">
                                         <g id="_x30_.1.0.0.215.0.0">
                                             <text id="USB-2x">
-                                                <tspan x="0.79560008" y="14.1997382" fill="#000000">USB 2x</tspan>
+                                                <tspan x="0.79560008" y="14.1997382">USB 2x</tspan>
                                             </text>
                                         </g>
                                     </g>
@@ -78,7 +78,7 @@
                                     <g id="_x30_.1.0.0.0.215.0.0.0_1_" transform="translate(0.330442, 0.991617)">
                                         <g id="_x30_.1.0.0.215.0.0_1_">
                                             <text id="USB-2x">
-                                                <tspan x="0.43374745" y="14.1997382" fill="#000000">USB 2x</tspan>
+                                                <tspan x="0.43374745" y="14.1997382">USB 2x</tspan>
                                             </text>
                                         </g>
                                     </g>
@@ -92,7 +92,7 @@
                                         <g id="_x30_.1.0.0.216.0.0">
                                             <g id="ETHERNET">
                                                 <text>
-                                                    <tspan x="0.96966867" y="14.60048" fill="#000000">ETHERNET</tspan>
+                                                    <tspan x="0.96966867" y="14.60048">ETHERNET</tspan>
                                                 </text>
                                             </g>
                                         </g>
@@ -1579,13 +1579,13 @@
             </g>
             <g id="Group" sketch:type="MSLayerGroup" transform="translate(120.000000, 68.000000)">
                 <text id="GPIO-Copy" fill="#FFFFFF" sketch:type="MSTextLayer" font-family="Helvetica" font-size="13.3877895" font-weight="normal">
-                    <tspan x="338.657895" y="13.7484139" fill="#000000">GPIO</tspan>
+                    <tspan x="338.657895" y="13.7484139">GPIO</tspan>
                 </text>
                 <text id="PIN-Copy" fill="#FFFFFF" sketch:type="MSTextLayer" font-family="Helvetica" font-size="13.3877895" font-weight="normal">
-                    <tspan x="383.697289" y="19.5199362" fill="#000000">PIN</tspan>
+                    <tspan x="383.697289" y="19.5199362">PIN</tspan>
                 </text>
                 <text id="PIN-Copy-2" fill="#FFFFFF" sketch:type="MSTextLayer" font-family="Helvetica" font-size="13.3877895" font-weight="normal">
-                    <tspan x="304.78569" y="20.3684211" fill="#000000">PIN</tspan>
+                    <tspan x="304.78569" y="20.3684211">PIN</tspan>
                 </text>
                 <g id="Group-Copy-7" transform="translate(308.000000, 27.000000)" font-weight="normal" font-family="Helvetica" sketch:type="MSTextLayer">
                     <g id="01" font-size="13.3877895" fill="#000000">
@@ -1605,7 +1605,7 @@
                     </g>
                     <g id="07" transform="translate(0.000000, 74.000000)" font-size="13.388" fill="#FFFFFF">
                         <text>
-                            <tspan x="0.23003411" y="13.2324497" fill="#000000">07</tspan>
+                            <tspan x="0.23003411" y="13.2324497">07</tspan>
                         </text>
                     </g>
                     <g id="09" transform="translate(0.000000, 98.000000)" font-size="13.388" fill="#000000">
@@ -1615,17 +1615,17 @@
                     </g>
                     <g id="11" transform="translate(1.000000, 123.000000)" font-size="13.388" fill="#FFFFFF">
                         <text>
-                            <tspan x="0.2171376" y="13.19281" fill="#000000">11</tspan>
+                            <tspan x="0.2171376" y="13.19281">11</tspan>
                         </text>
                     </g>
                     <g id="13" transform="translate(0.000000, 148.000000)" font-size="13.388" fill="#FFFFFF">
                         <text>
-                            <tspan x="0.23003411" y="13.19281" fill="#000000">13</tspan>
+                            <tspan x="0.23003411" y="13.19281">13</tspan>
                         </text>
                     </g>
                     <g id="15" transform="translate(0.000000, 172.000000)" font-size="13.388" fill="#FFFFFF">
                         <text>
-                            <tspan x="0.23003411" y="13.19281" fill="#000000">15</tspan>
+                            <tspan x="0.23003411" y="13.19281">15</tspan>
                         </text>
                     </g>
                     <g id="17" transform="translate(0.000000, 193.000000)" font-size="13.388" fill="#000000">
@@ -1660,17 +1660,17 @@
                     </g>
                     <g id="29" transform="translate(0.000000, 339.000000)" font-size="13.388" fill="#FFFFFF">
                         <text>
-                            <tspan x="0.23003411" y="13.803789" fill="#000000">29</tspan>
+                            <tspan x="0.23003411" y="13.803789">29</tspan>
                         </text>
                     </g>
                     <g id="31" transform="translate(0.000000, 363.000000)" font-size="13.388" fill="#FFFFFF">
                         <text>
-                            <tspan x="0.23003411" y="13.803789" fill="#000000">31</tspan>
+                            <tspan x="0.23003411" y="13.803789">31</tspan>
                         </text>
                     </g>
                     <g id="33" transform="translate(0.000000, 388.000000)" font-size="13.388" fill="#FFFFFF">
                         <text>
-                            <tspan x="0.23003411" y="13.052632" fill="#000000">33</tspan>
+                            <tspan x="0.23003411" y="13.052632">33</tspan>
                         </text>
                     </g>
                     <g id="35" transform="translate(0.000000, 413.000000)" font-size="13.388" fill="#000000">
@@ -1680,7 +1680,7 @@
                     </g>
                     <g id="37" transform="translate(0.000000, 438.000000)" font-size="13.388" fill="#FFFFFF">
                         <text>
-                            <tspan x="0.23003411" y="13.052632" fill="#000000">37</tspan>
+                            <tspan x="0.23003411" y="13.052632">37</tspan>
                         </text>
                     </g>
                     <g id="39" transform="translate(0.000000, 462.000000)" font-size="13.388" fill="#000000">
@@ -1718,7 +1718,7 @@
                         <tspan x="13.8834428" y="185.508599">- V</tspan>
                     </text>
                 </g>
-                <g id="Group-Copy-2-Copy" transform="translate(287.000000, 101.000000)" font-weight="normal" font-family="Helvetica" fill="#FFFFFF" font-size="13.388" sketch:type="MSTextLayer">
+                <g id="Group-Copy-2-Copy" transform="translate(287.000000, 112.000000)" font-weight="normal" font-family="Helvetica" fill="#FFFFFF" font-size="13.388" sketch:type="MSTextLayer">
                     <g id="_7">
                         <text id="-">
                             <tspan x="0.1029413" y="13.2324497" fill="#000000">-</tspan>
@@ -1788,7 +1788,7 @@
                     </g>
                     <g id="12" transform="translate(0.000000, 123.000000)" font-size="13.388" fill="#FFFFFF">
                         <text>
-                            <tspan x="0.697288676" y="13.19281" fill="#000000">12</tspan>
+                            <tspan x="0.697288676" y="13.19281">12</tspan>
                         </text>
                     </g>
                     <g id="14" transform="translate(0.000000, 148.000000)" font-size="13.388" fill="#000000">
@@ -1798,7 +1798,7 @@
                     </g>
                     <g id="16" transform="translate(0.000000, 172.000000)" font-size="13.388" fill="#FFFFFF">
                         <text>
-                            <tspan x="0.697288676" y="13.19281" fill="#000000">16</tspan>
+                            <tspan x="0.697288676" y="13.19281">16</tspan>
                         </text>
                     </g>
                     <g id="18" transform="translate(0.000000, 193.000000)" font-size="13.388" fill="#000000">
@@ -1813,7 +1813,7 @@
                     </g>
                     <g id="22" transform="translate(0.000000, 243.000000)" font-size="13.388" fill="#FFFFFF">
                         <text>
-                            <tspan x="0.697288676" y="13.894737" fill="#000000">22</tspan>
+                            <tspan x="0.697288676" y="13.894737">22</tspan>
                         </text>
                     </g>
                     <g id="24" transform="translate(0.000000, 267.000000)" font-size="13.388" fill="#000000">
@@ -1838,7 +1838,7 @@
                     </g>
                     <g id="32" transform="translate(0.000000, 363.000000)" font-size="13.388" fill="#FFFFFF">
                         <text>
-                            <tspan x="0.697288676" y="13.803789" fill="#000000">32</tspan>
+                            <tspan x="0.697288676" y="13.803789">32</tspan>
                         </text>
                     </g>
                     <g id="34" transform="translate(0.000000, 388.000000)" font-size="13.388" fill="#000000">
@@ -1853,16 +1853,16 @@
                     </g>
                     <g id="38" transform="translate(0.000000, 438.000000)" font-size="13.388" fill="#FFFFFF">
                         <text>
-                            <tspan x="0.697288676" y="13.052632" fill="#000000">38</tspan>
+                            <tspan x="0.697288676" y="13.052632">38</tspan>
                         </text>
                     </g>
                     <g id="40" transform="translate(0.000000, 462.000000)" font-size="13.388" fill="#FFFFFF">
                         <text>
-                            <tspan x="0.697288676" y="13.052632" fill="#000000">40</tspan>
+                            <tspan x="0.697288676" y="13.052632">40</tspan>
                         </text>
                     </g>
                 </g>
-                <g id="Group-Copy-Copy" transform="translate(417.000000, 150.000000)" font-weight="normal" font-family="Helvetica" fill="#FFFFFF" font-size="13.388" sketch:type="MSTextLayer">
+                <g id="Group-Copy-Copy" transform="translate(417.000000, 159.000000)" font-weight="normal" font-family="Helvetica" fill="#FFFFFF" font-size="13.388" sketch:type="MSTextLayer">
                     <g id="_12">
                         <text id="-">
                             <tspan x="0.2576081" y="13.19281" fill="#000000">-</tspan>
