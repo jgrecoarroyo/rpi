@@ -78,12 +78,14 @@ window.onload = function () {
 
       $.getJSON(url, function (data) {
         // console.log('API response received. channel ' + data.channel + ' value = ' + data.value);
-        var svgDoc = svg_object.contentDocument.getElementById("--V").childNodes;
+        //var svgDoc = svg_object.contentDocument.getElementById("--V").childNodes;
         console.log('---s---');
-        console.log(svgDoc[0].parentNode.children[i].getElementById('#_ADC_8'));
-
+        var adc = svg_object.contentDocument.getElementById("_ADC_8").childNodes;
+        console.log(adc);
+        console.log(adc[0].textContent);
         console.log('---e---');
-        svgDoc[0].parentNode.children[i].textContent = data.value;
+        //svgDoc[0].parentNode.children[i].textContent = data.value;
+        svg_object.contentDocument.getElementById("_ADC_" + i).childNodes[0].textContent = data.value;
         $('#channel_' + data.channel).html('PIN input port ' + data.channel + ' value is ' + data.value);
       });
     } // for
