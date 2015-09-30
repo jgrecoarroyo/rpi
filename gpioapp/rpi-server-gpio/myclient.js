@@ -50,10 +50,10 @@ window.onload = function () {
   setInterval( function () {
     for (i in ports_left) {
       url = document.URL + 'pins/' + ports_left[i];
-      console.log('making API call ' + url);
+      // console.log('making API call ' + url);
 
       $.getJSON(url, function (data) {
-        console.log('API response received. port ' + data.pin + ' value = ' + data.value);
+        // console.log('API response received. port ' + data.pin + ' value = ' + data.value);
         var svgDoc = svg_object.contentDocument.getElementById("_"+data.pin).childNodes;
         svgDoc[1].textContent = data.value;
         $('#input_' + data.pin).html('PIN input port ' + data.pin + ' value is ' + data.value);
@@ -62,10 +62,10 @@ window.onload = function () {
 
     for (i in ports_right) {
       url = document.URL + 'pins/' + ports_right[i];
-      console.log('making API call ' + url);
+      // console.log('making API call ' + url);
 
       $.getJSON(url, function (data) {
-        console.log('API response received. port ' + data.pin + ' value = ' + data.value);
+        // console.log('API response received. port ' + data.pin + ' value = ' + data.value);
         var svgDoc = svg_object.contentDocument.getElementById("_"+data.pin).childNodes;
         svgDoc[1].textContent = data.value;
         $('#input_' + data.pin).html('PIN input port ' + data.pin + ' value is ' + data.value);
@@ -74,10 +74,10 @@ window.onload = function () {
 
     for (i in channels) {
       url = document.URL + 'adcs/' + channels[i];
-      console.log('making API call ' + url);
+      // console.log('making API call ' + url);
 
       $.getJSON(url, function (data) {
-        console.log('API response received. channel ' + data.channel + ' value = ' + data.value);
+        // console.log('API response received. channel ' + data.channel + ' value = ' + data.value);
         var svgDoc = svg_object.contentDocument.getElementById("--V").childNodes;
         console.log(svgDoc[0].parentNode.children[i].innerHTML);
         svgDoc[0].parentNode.children[i].textContent = data.value;
