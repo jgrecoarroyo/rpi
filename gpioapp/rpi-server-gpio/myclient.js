@@ -78,9 +78,9 @@ window.onload = function () {
 
       $.getJSON(url, function (data) {
         console.log('API response received. channel ' + data.channel + ' value = ' + data.value);
-        //var svgDoc = svg_object.contentDocument.getElementById("_ADC_"+data.pin).childNodes;
-        console.log(svg_object.contentDocument);
-        //svgDoc[1].textContent = data.value;
+        var svgDoc = svg_object.contentDocument.getElementById("--V").childNodes;
+        console.log(svg_object.contentDocument.getElementById("--V").childNodes);
+        svgDoc[0].parentNode.children[i].textContent = data.value;
         $('#channel_' + data.channel).html('PIN input port ' + data.channel + ' value is ' + data.value);
       });
     } // for
