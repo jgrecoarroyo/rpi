@@ -25,7 +25,7 @@
                                         <g id="_x30_.1.0.0.211.0.0">
                                             <g id="tspan8666_5_" transform="translate(9.227845, 21.469207) rotate(-90.000000) translate(-9.227845, -21.469207) translate(-11.272155, 12.469207)">
                                                 <text id="Power">
-                                                    <tspan x="0.888" y="14.4464388" fill="#000000">Power</tspan>
+                                                    <tspan x="0.888" y="14.4464388">Power</tspan>
                                                 </text>
                                             </g>
                                         </g>
@@ -46,13 +46,13 @@
                                 </g>
                             </g>
                         </g>
-                        <g id="_x30_.1.0.0.0.213" transform="translate(144.527273, 492.096970)" font-size="13.9806316" font-family="Helvetica" fill="#FFFFFF" sketch:type="MSTextLayer" font-weight="normal">
+                        <g id="_x30_.1.0.0.0.213" transform="translate(143.527273, 491.096970)" font-size="13.9806316" font-family="Helvetica" fill="#FFFFFF" sketch:type="MSTextLayer" font-weight="normal">
                             <g id="_x30_.1.0.0.213">
                                 <g id="text3663_6_">
-                                    <g id="_x30_.1.0.0.0.213.0.0.0" transform="translate(9.926607, 19.127131) rotate(90.000000) translate(-9.926607, -19.127131) translate(-8.573393, 10.127131)">
-                                        <g id="_x30_.1.0.0.213.0.0">
+                                    <g id="_x30_.1.0.0.0.213.0.0.0" transform="translate(10.426607, 19.627131) rotate(90.000000) translate(-10.426607, -19.627131) translate(-8.573393, 10.127131)">
+                                        <g id="_x30_.1.0.0.213.0.0" transform="translate(1.000000, 0.000000)">
                                             <text id="Audio">
-                                                <tspan x="0.64277895" y="14.6386836" fill="#000000">Audio</tspan>
+                                                <tspan x="0.64277895" y="14.6386836">Audio</tspan>
                                             </text>
                                         </g>
                                     </g>
@@ -106,7 +106,7 @@
                                     <g id="_x30_.1.0.0.0.217.0.0.0" transform="translate(0.764800, 0.513879)">
                                         <g id="_x30_.1.0.0.217.0.0">
                                             <text id="DSI-(DISPLAY)">
-                                                <tspan x="0.61827368" y="14.7222521" fill="#000000">DSI (DISPLAY)</tspan>
+                                                <tspan x="0.61827368" y="14.7222521">DSI (DISPLAY)</tspan>
                                             </text>
                                         </g>
                                     </g>
@@ -119,7 +119,7 @@
                                     <g id="_x30_.1.0.0.0.218.0.0.0" transform="translate(49.771283, 9.851263) scale(-1, -1) translate(-49.771283, -9.851263) translate(0.771283, 0.851263)">
                                         <g id="_x30_.1.0.0.218.0.0">
                                             <text id="CSI-(CAMERA)">
-                                                <tspan x="0.74989474" y="14.3843976" fill="#000000">CSI (CAMERA)</tspan>
+                                                <tspan x="0.74989474" y="14.3843976">CSI (CAMERA)</tspan>
                                             </text>
                                         </g>
                                     </g>
@@ -1117,10 +1117,10 @@
                             <g id="_x30_.1.0.0.0.20.0" transform="translate(0.164968, 0.449644)">
                                 <g id="_x30_.1.0.0.20.0">
                                     <text id="Raspberry-Pi-Model-2-v1.1">
-                                        <tspan x="0.01271579" y="20.0420364" fill="#000000">Raspberry Pi Model 2 v1.1</tspan>
+                                        <tspan x="0.01271579" y="20.0420364">Raspberry Pi Model 2 v1.1</tspan>
                                     </text>
                                     <text id="©-Raspberry-Pi-2014">
-                                        <tspan x="0.01271579" y="44.6698036" fill="#000000">© Raspberry Pi 2014</tspan>
+                                        <tspan x="0.01271579" y="44.6698036">© Raspberry Pi 2014</tspan>
                                     </text>
                                 </g>
                             </g>
@@ -1577,17 +1577,17 @@
                     </g>
                 </g>
             </g>
-            <g id="Group" sketch:type="MSLayerGroup" transform="translate(120.000000, 68.000000)">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(102.000000, 68.000000)">
                 <text id="GPIO-Copy" fill="#FFFFFF" sketch:type="MSTextLayer" font-family="Helvetica" font-size="13.3877895" font-weight="normal">
-                    <tspan x="338.657895" y="13.7484139">GPIO</tspan>
+                    <tspan x="356.657895" y="13.7484139">GPIO</tspan>
                 </text>
                 <text id="PIN-Copy" fill="#FFFFFF" sketch:type="MSTextLayer" font-family="Helvetica" font-size="13.3877895" font-weight="normal">
-                    <tspan x="383.697289" y="19.5199362">PIN</tspan>
+                    <tspan x="401.697289" y="19.5199362">PIN</tspan>
                 </text>
                 <text id="PIN-Copy-2" fill="#FFFFFF" sketch:type="MSTextLayer" font-family="Helvetica" font-size="13.3877895" font-weight="normal">
-                    <tspan x="304.78569" y="20.3684211">PIN</tspan>
+                    <tspan x="322.78569" y="20.3684211">PIN</tspan>
                 </text>
-                <g id="Group-Copy-7" transform="translate(308.000000, 27.000000)" font-weight="normal" font-family="Helvetica" sketch:type="MSTextLayer">
+                <g id="Group-Copy-7" transform="translate(326.000000, 27.000000)" font-weight="normal" font-family="Helvetica" sketch:type="MSTextLayer">
                     <g id="01" font-size="13.3877895" fill="#000000">
                         <text>
                             <tspan x="0.23026827" y="13.1591707">01</tspan>
@@ -1690,35 +1690,35 @@
                     </g>
                 </g>
                 <text id="ADC" fill="#FFFFFF" sketch:type="MSTextLayer" font-family="Helvetica" font-size="13.3877895" font-weight="normal">
-                    <tspan x="0.78569" y="91.6842105">ADC</tspan>
+                    <tspan x="18.78569" y="91.6842105">ADC</tspan>
                 </text>
-                <g transform="translate(20.000000, 99.000000)" font-weight="normal" font-family="Helvetica" id="--V" fill="#FFFFFF" sketch:alignment="left" sketch:type="MSTextLayer">
+                <g transform="translate(0.000000, 99.000000)" font-weight="normal" font-family="Helvetica" id="--V" fill="#FFFFFF" sketch:alignment="right" sketch:type="MSTextLayer">
                     <text font-size="13.3877895">
-                        <tspan id="_ADC_8" x="12.8926537" y="13.4749602">- V</tspan>
+                        <tspan x="12.8926537" y="13.4749602">- V</tspan>
                     </text>
                     <text font-size="13.388">
-                        <tspan id="_ADC_7" x="12.8923848" y="38.4095563">- V</tspan>
+                        <tspan x="12.8923848" y="38.4095563">- V</tspan>
                     </text>
                     <text font-size="13.388">
-                        <tspan id="_ADC_6" x="13.8834428" y="63.5878788">- V</tspan>
+                        <tspan x="13.8834428" y="63.5878788">- V</tspan>
                     </text>
                     <text font-size="13.388">
-                        <tspan id="_ADC_5" x="13.8834428" y="87.5482392">- V</tspan>
+                        <tspan x="13.8834428" y="87.5482392">- V</tspan>
                     </text>
                     <text font-size="13.388">
-                        <tspan id="_ADC_4" x="13.8834428" y="111.508599">- V</tspan>
+                        <tspan x="13.8834428" y="111.508599">- V</tspan>
                     </text>
                     <text font-size="13.388">
-                        <tspan id="_ADC_3" x="15.5615187" y="136.508599">- V</tspan>
+                        <tspan x="15.5615187" y="136.508599">- V</tspan>
                     </text>
                     <text font-size="13.388">
-                        <tspan id="_ADC_2" x="13.8834428" y="161.508599">- V</tspan>
+                        <tspan x="13.8834428" y="161.508599">- V</tspan>
                     </text>
                     <text font-size="13.388">
-                        <tspan id="_ADC_1" x="13.8834428" y="185.508599">- V</tspan>
+                        <tspan x="13.8834428" y="185.508599">- V</tspan>
                     </text>
                 </g>
-                <g id="Group-Copy-2-Copy" transform="translate(287.000000, 114.000000)" font-weight="normal" font-family="Helvetica" fill="#FFFFFF" font-size="13.388" sketch:type="MSTextLayer">
+                <g id="Group-Copy-2-Copy" transform="translate(305.000000, 114.000000)" font-weight="normal" font-family="Helvetica" fill="#FFFFFF" font-size="13.388" sketch:type="MSTextLayer">
                     <g id="_7">
                         <text id="-">
                             <tspan x="0.1029413" y="13.2324497" fill="#000000">-</tspan>
@@ -1760,7 +1760,7 @@
                         </text>
                     </g>
                 </g>
-                <g id="Group-Copy-8" transform="translate(387.000000, 27.000000)" font-weight="normal" font-family="Helvetica" sketch:type="MSTextLayer">
+                <g id="Group-Copy-8" transform="translate(405.000000, 27.000000)" font-weight="normal" font-family="Helvetica" sketch:type="MSTextLayer">
                     <g id="02" font-size="13.3877895" fill="#000000">
                         <text>
                             <tspan x="0.697288676" y="13.1591707">02</tspan>
@@ -1862,7 +1862,7 @@
                         </text>
                     </g>
                 </g>
-                <g id="Group-Copy-Copy" transform="translate(417.000000, 162.000000)" font-weight="normal" font-family="Helvetica" fill="#FFFFFF" font-size="13.388" sketch:type="MSTextLayer">
+                <g id="Group-Copy-Copy" transform="translate(435.000000, 162.000000)" font-weight="normal" font-family="Helvetica" fill="#FFFFFF" font-size="13.388" sketch:type="MSTextLayer">
                     <g id="_12">
                         <text id="-">
                             <tspan x="0.2576081" y="13.19281" fill="#000000">-</tspan>
@@ -1894,7 +1894,7 @@
                         </text>
                     </g>
                 </g>
-                <g id="Group-Copy-9" transform="translate(354.130303, 266.868420) rotate(90.000000) translate(-354.130303, -266.868420) translate(110.630303, 242.368420)" sketch:type="MSShapeGroup">
+                <g id="Group-Copy-9" transform="translate(372.130303, 266.868420) rotate(90.000000) translate(-372.130303, -266.868420) translate(128.630303, 242.368420)" sketch:type="MSShapeGroup">
                     <g id="Group">
                         <path d="M0.417684211,18.4540606 L0.417684211,29.6953697 L0.417684211,42.9315394 L5.68926316,48.0130424 L19.3987368,48.0130424 L24.6669474,42.9315394 L24.6669474,29.6953697 L24.6669474,18.4540606 L24.6669474,5.22126061 L19.3987368,0.13638788 L5.68926316,0.13638788 L0.417684211,5.22126061 L0.417684211,18.4540606 L0.417684211,18.4540606 Z" id="polygon3153-8_21_" fill="#404040"></path>
                         <path d="M0.417684211,18.4540606 L0.417684211,29.6953697 L0.417684211,42.9315394 L5.68926316,48.0130424 L19.3987368,48.0130424 L24.6669474,42.9315394 L24.6669474,29.6953697 L24.6669474,18.4540606 L24.6669474,5.22126061 L19.3987368,0.13638788 L5.68926316,0.13638788 L0.417684211,5.22126061 L0.417684211,18.4540606 L0.417684211,18.4540606 Z" id="polygon3159-0_21_" fill="#404040"></path>
@@ -2176,7 +2176,7 @@
                         <path d="M8.3785263,39.9089212 L10.2614737,38.0252606 L14.2496842,38.0252606 L16.1157895,39.9089212 L8.3785263,39.9089212 L8.3785263,39.9089212 Z" id="dnc24pin_1_" fill="#9A916C"></path>
                     </g>
                 </g>
-                <g id="Group-Copy-10" transform="translate(335.000000, 28.000000)" stroke="#FFBF00" sketch:type="MSShapeGroup">
+                <g id="Group-Copy-10" transform="translate(353.000000, 28.000000)" stroke="#FFBF00" sketch:type="MSShapeGroup">
                     <ellipse id="connector0pin" fill-opacity="0.750396286" fill="#FF0000" transform="translate(7.367394, 7.882105) rotate(90.000000) translate(-7.367394, -7.882105) " cx="7.36739374" cy="7.88210494" rx="7.03326316" ry="7.03592727"></ellipse>
                     <ellipse id="connector1pin" transform="translate(7.367394, 32.134737) rotate(90.000000) translate(-7.367394, -32.134737) " cx="7.3673942" cy="32.1347369" rx="7.03326316" ry="7.03592727"></ellipse>
                     <ellipse id="connector2pin" transform="translate(7.367394, 56.387368) rotate(90.000000) translate(-7.367394, -56.387368) " cx="7.3673936" cy="56.3873679" rx="7.03326316" ry="7.03592727"></ellipse>
