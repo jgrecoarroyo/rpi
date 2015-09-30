@@ -47,7 +47,6 @@ for (i in inputs) {
     if (err) { throw err; }
   }
 }); // gpio.open
-} // if
 
 // ------------------------------------------------------------------------
 // read and store the GPIO inputs twice a second
