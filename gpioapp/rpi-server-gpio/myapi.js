@@ -255,7 +255,7 @@ app.get('/adcs', function (req, res) {
 
 // Express route for incoming requests for a single input
 app.get('/adcs/:id', function (req, res) {
-
+  url = 'http://localhost:8003/adcs';
   request(url, function (error, response, body) {
     if (!error && response.statusCode == 200) {
       var info = JSON.parse(response.body)
