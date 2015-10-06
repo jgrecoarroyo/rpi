@@ -69,7 +69,7 @@ In the same way as with GPIOs, you can call these by their pin number http://MyR
 
 ###ADCs
 > **ADCPi shield**
-> The raspberry pi doesn't have ADCs (Analog to Digital Converters) by default, and for that reason an external shield is needed to be able to read analog sensors. The ADC values are given in Volts provided by the 8-channel "ADB Pi Plus" board with a 17bit resolution 0-5V (using two Microchip MCP3424 A/D converters).
+> The raspberry pi doesn't have ADCs (Analog to Digital Converters) by default, and for that reason an external shield is needed to be able to read analog sensors. The ADC values are given in Volts provided by the 8-channel ["ADB Pi Plus"](https://www.abelectronics.co.uk/products/17/Raspberry-Pi/56/ADC-Pi-Plus---Raspberry-Pi-Analogue-to-Digital-converter) board with a 17bit resolution 0-5V (using two Microchip MCP3424 A/D converters).
 
 In the same way as with PIN numbers or GPIO numbers, you will be able to access the 8 ADC channels using `http://MyRPiIP:3000/adcs` and a whole list of values will be returned in JSON format.
 
