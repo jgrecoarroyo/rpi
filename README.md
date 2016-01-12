@@ -1,6 +1,6 @@
 # pirest
 
-![pirest board](https://github.com/jgrecoarroyo/pirest.web/blob/gh-pages/img/pi3big.png)
+![pirest board](https://github.com/jgrecoarroyo/pirest.web/blob/gh-pages/img/board.png)
 
 ## Usage
 ### Why
