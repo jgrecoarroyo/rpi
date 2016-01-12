@@ -1,4 +1,7 @@
 # pirest
+
+![pirest board](https://github.com/jgrecoarroyo/pirest.web/blob/gh-pages/img/board.svg)
+
 ## Usage
 ### Why
 We love to prototype, innovate and experiment. It doesn't matter if it is a professional application or a hobby-like project, implementation can be a great hassle. With πrest you will focus on what really matters: the development of your idea and avoid getting stuck in the process.
