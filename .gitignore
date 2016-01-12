@@ -1,0 +1,9 @@
+.idea/*
+.DS_Store
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.npm
+node_modules/*
+temp
